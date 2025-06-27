@@ -221,15 +221,7 @@ public class FogEngine {
                     }
                 } catch (InvalidPositionException ex) {}
 
-                // try {
-                //     Position left = new Position(p.x - 1, p.y + 1);
-                //     possibleMoves.add(left);
-                // } catch (InvalidPositionException ex) {}
-
-                // try {
-                //     Position right = new Position(p.x + 1, p.y + 1 );
-                //     possibleMoves.add(right);
-                // } catch (InvalidPositionException ex) {}
+               
             }  
         }
 
