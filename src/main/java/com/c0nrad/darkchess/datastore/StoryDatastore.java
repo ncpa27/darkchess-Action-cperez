@@ -12,6 +12,8 @@ import org.bson.types.ObjectId;
 import xyz.morphia.Datastore;
 
 public class StoryDatastore {
+        private static final String cambioRegla = "PPPPPPPP";
+
     public static Story Find(String storyId) {
         Datastore d = MorphiaSingleton.GetDatastore();
         ObjectId objectId = new ObjectId(storyId);
@@ -42,7 +44,7 @@ public class StoryDatastore {
 
         String[] layout ={
             "    K   ", 
-            "PPPPPPPP",
+            cambioRegla,
             "        ",
             "        ",
             "        ",
@@ -91,7 +93,7 @@ public class StoryDatastore {
 
         String[] layout3 ={
             "RNBQKBNR", 
-            "PPPPPPPP",
+            cambioRegla,
             "        ",
             "        ",
             "        ",
@@ -115,8 +117,8 @@ public class StoryDatastore {
 
         String[] layout4 ={
             "PPPPKPPP", 
-            "PPPPPPPP",
-            "PPPPPPPP",
+            cambioRegla,
+            cambioRegla,
             "        ",
             "        ",
             "        ",
@@ -137,7 +139,7 @@ public class StoryDatastore {
 
         String[] layout5 ={
             "RNBQKBNR", 
-            "PPPPPPPP",
+            cambioRegla,
             "        ",
             "        ",
             "        ",
